@@ -7,6 +7,7 @@ public class Student {
     int chinese;
     float weight;
     float height;
+    static int pass = 60;
 
     public Student(String name, int math, int chinese, float weight, float height) {
         this.name = name;
@@ -40,7 +41,7 @@ public class Student {
     public void print(){
         int avg = avg();
         System.out.println(name + "\t" + math + "\t" + chinese + "\t" + avg() + "\t" +
-                ((avg >= 60) ? "Pass" : "Fail"));
+                ((avg >= pass) ? "Pass" : "Fail"));
         /*if(avg() >= 60){
             System.out.println("\tPass");
         }else{

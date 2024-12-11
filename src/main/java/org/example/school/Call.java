@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class Call {
     public static void main(String[] args) {
-        userinput();
+        Student s1 = new Student("Sean", 70,60);
+        s1.print();
+        GraduateStudent g = new GraduateStudent("Hank", 60,60, 60);
+        g.print();
+//        userinput();
 
 
     }
