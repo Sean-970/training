@@ -1,4 +1,4 @@
-package org.example.forgame;
+package org.example.guess;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package org.example.forgame;
+package org.example.guess;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Game {
         Scanner scanner = new Scanner(System.in);
         int number = 0;
         int guess = 0;
-        final int maxguess = 3;
+        final int maxguess = 3; //猜最大次數
         while (number != answer && guess < maxguess) {
             System.out.println("輸入數字");
             number = scanner.nextInt();

@@ -5,6 +5,10 @@ public class Test {
         Deck d1 = new Deck();
         d1.shuffle();
         d1.print(13);
+        Person p = new Person(66.5f,1.8f);
+        p.hello();
+        System.out.println(p.bmi());
+
 
 
     }
