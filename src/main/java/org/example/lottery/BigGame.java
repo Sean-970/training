@@ -1,4 +1,4 @@
-package lottery;
+package org.example.lottery;
 
 public class BigGame extends NumberGame{
     @Override

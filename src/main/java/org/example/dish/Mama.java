@@ -1,6 +1,4 @@
-package dish;
-
-import java.sql.SQLOutput;
+package org.example.dish;
 
 public class Mama {
         public Mama(){

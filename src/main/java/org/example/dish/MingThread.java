@@ -1,4 +1,4 @@
-package dish;
+package org.example.dish;
 
 public class MingThread extends Thread{
     @Override
