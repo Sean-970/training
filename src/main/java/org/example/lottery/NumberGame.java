@@ -1,4 +1,4 @@
-package lottery;
+package org.example.lottery;
 
 import java.util.HashSet;
 import java.util.Set;

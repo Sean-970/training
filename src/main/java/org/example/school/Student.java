@@ -17,10 +17,15 @@ public class Student {
     }
 
     public int avg(){
+
         return (math + chinese) / 2;
     }
     public float bmi(){
+
         return weight / (height * height);
+    }
+    public int  highest(){
+        return (math > chinese) ? math : chinese;
     }
 
 }

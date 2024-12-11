@@ -1,4 +1,4 @@
-package lottery;
+package org.example.lottery;
 
 public class Game539 extends NumberGame{
     int numberCount = 5;
