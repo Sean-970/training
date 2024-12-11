@@ -1,4 +1,4 @@
-package org.example;
+package org.example.report;
 
 public class Finace implements Report {
 

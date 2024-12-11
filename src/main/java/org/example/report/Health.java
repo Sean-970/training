@@ -1,6 +1,6 @@
-package org.example;
+package org.example.report;
 
-public class Health implements Report{
+public class Health implements Report {
     @Override
     public void print() {
         System.out.println("Print Health");
