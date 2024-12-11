@@ -6,4 +6,9 @@ public class Finace implements Report {
     public void print() {
         System.out.println("print Finace");
     }
+
+    @Override
+    public void load() {
+        System.out.println("Load Finace");
+    }
 }
